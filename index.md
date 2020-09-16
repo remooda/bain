@@ -4,9 +4,7 @@ title: Lerntagebuch BAIN
 
 Willkommen zu meinem Lerntagebuch zum Kurs **Bibliotheks- und Archivinformatik**.
 
-<ul class="post-list">
-  <li>
-    <span class="post-meta">16. September 2020</span>
+<p>16. September 2020</p>
         <h3>
           <a class="post-link" href="https://remooda.github.io/bain/2020/09/16/einfuehrung.html">
             Einführungsartikel
