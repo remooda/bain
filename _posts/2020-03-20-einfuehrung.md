@@ -3,6 +3,8 @@ title: "Einführungsartikel"
 date: 2020-09-16
 ---
 
+<h3>Einführungsartikel</h3>
+
 Im Modul BAIN sollte ich die eingesetzten Softwares und Technologien von Bibliotheken und Archiven kennenlernen. Mir ist eingefallen, dass ich bereits in der Direktion für Entwicklungszusammenarbeit mit dem Programm NOS gearbeitet habe, leider kann ich mich nicht an vieles erinnern. Wikipedia sagt mir, es sei eine kommerziell entwickelte Software zur Verwaltung von Bibliotheksbeständen. NOS hat für dieses Fach also durchaus Relevanz. In der Bibliothek der Schule für Gestaltung Bern habe ich diesen Frühling/Sommer gearbeitet und dabei erstmals Aleph genutzt. Auch dies ist ein kommerzielles Bibliothekssystem. Meine Aleph-Kenntnisse beschränken sich leider auf Titelaufnahme und Umsignierung von Medien, meines Erachtens ist das aber kein Problem. Schliesslich hoffe ich, in diesem Fach viele andere Bibliothekssysteme kennenzulernen. Dazu scheint in der Schweiz der Wechsel von Aleph auf Alma omnipräsent und ich würde gerne ein bisschen mehr dazu hören oder zumindest einen Einblick in Alma erhalten. Update: Ich habe gesehen, dass wir hauptsächlich Open-Source-Software anschauen werden. Somit wird Alma wohl kein Inhalt des Moduls.
 
 Ein weiteres Lernziel dieses Kurses ist, die richtige Software für eine spezifische Aufgabe zu evaluieren, was ich sehr wichtig und interessant finde. Ich bin gespannt, ob wir in so kurzer Zeit tatsächlich genügend Softwares kennenlernen können, um die jeweils beste Lösung zu finden, bin dabei aber zuversichtlich.
