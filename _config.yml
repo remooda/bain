@@ -2,7 +2,7 @@ title: Lerntagebuch BAIN
 author: Remo
 email: remo.bischoff@stud.fhgr.ch
 description: > # this means to ignore newlines until "baseurl:"
-  Lerntagebuch Bibliotheks- und Archivinformatik HS2020
+  Bibliotheks- und Archivinformatik HS2020
 
 # social links
 github_username:  remooda # DO NOT include the @ character, or else the build will fail!
