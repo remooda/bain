@@ -21,7 +21,7 @@ Als Fazit kann ich sagen, dass ich bei allen Lernzielen dieses Kurses Neuland be
 ## GLOSSAR
 
 ## Bibliotheksysteme
-MARC21 – bibliographisches Datenformat (v.a. für Austausch)
+MARC21 – bibliographisches Datenformat (v.a. für Austausch)<p>
 Koha – integriertes Bibliothekssystem (Open Source)
 
 ## Archivsysteme
