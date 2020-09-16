@@ -21,30 +21,30 @@ Als Fazit kann ich sagen, dass ich bei allen Lernzielen dieses Kurses Neuland be
 ## GLOSSAR
 
 ## Bibliotheksysteme
-MARC21 – bibliographisches Datenformat (v.a. für Austausch)<p>
+MARC21 – bibliographisches Datenformat (v.a. für Austausch)<br>
 Koha – integriertes Bibliothekssystem (Open Source)
 
 ## Archivsysteme
-ISAD(G) – internationaler Standard zur Verzeichnung archivischer Unterlagen (Körperschaften, Personen und Familien)
+ISAD(G) – internationaler Standard zur Verzeichnung archivischer Unterlagen (Körperschaften, Personen und Familien)<br>
 EAD – XML-Format zur Beschreibung von Archivalien
 
 ## Repository-Software
 DSpace – Repository Software (Dokumentenserver) (Open Source)
 
 ## Metadaten/Schnittstellen
-OpenRefine – Datenbereinigung und -umwandlung (OpenSource)
-XSLT – Programmiersprache zur Transformation von XML-Dokumenten
-OAI-PMH – Sammeln und Weiterverarbeiten von Metadaten (freie Weitergabe von Metadaten)
-SRU (Search/Retrieve via URL) – Standard für Suchanfragen
+OpenRefine – Datenbereinigung und -umwandlung (OpenSource)<br>
+XSLT – Programmiersprache zur Transformation von XML-Dokumenten<br>
+OAI-PMH – Sammeln und Weiterverarbeiten von Metadaten (freie Weitergabe von Metadaten)<br>
+SRU (Search/Retrieve via URL) – Standard für Suchanfragen<br>
 JSON-API – JSON = Datenformat / API = Schnittstelle
 
 ## Suchmaschinen/Discovery-Systeme
-Solr – Suchmaschine in Java geschrieben (Open Source)
+Solr – Suchmaschine in Java geschrieben (Open Source)<br>
 VuFind – Bibliothekarisches Suchsystem (Discovery-System) (Open Source)
 
 ## Linked Data
-OpenRefine – Datenbereinigung und -umwandlung (OpenSource)
-Wikidata – Datenbank (Linked Data) (Open Source)
-SPARQL – RDF-Abfragesprache für Suchanfragen
-BIBFRAME – Datenmodell für Bibliotheksdaten (Linked Data), Ersatz für MARC
+OpenRefine – Datenbereinigung und -umwandlung (OpenSource)<br>
+Wikidata – Datenbank (Linked Data) (Open Source)<br>
+SPARQL – RDF-Abfragesprache für Suchanfragen<br>
+BIBFRAME – Datenmodell für Bibliotheksdaten (Linked Data), Ersatz für MARC<br>
 RiC – Standard für Erfassung von Archivalien
