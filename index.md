@@ -10,3 +10,5 @@ title: Lerntagebuch BAIN
 <p>10. September 2020</p>
 <a href="https://remooda.github.io/bain/2020/09/25/tag2.html">Tag 2</a>
 <p>25. September 2020</p>
+<a href="https://remooda.github.io/bain/2020/10/02/tag3.html">Tag 3</a>
+<p>2. Oktober 2020</p>
