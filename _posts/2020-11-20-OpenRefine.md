@@ -1,12 +1,10 @@
 # Funktionen von OpenRefine
 
-Auf die Basisfunktionen von OpenRefine gehe ich hier nicht ein. Im folgenden Tutorial von der LibraryCarpentery werden diese alle erläutert:
+In diesem Blogbeitrag behandle ich die beiden äusserst hilfreichen Funktionen "Template-Export" und "Reconciliation". Auf die Basisfunktionen von OpenRefine gehe ich hier nicht ein. Im folgenden Tutorial von der LibraryCarpentery werden diese alle erläutert:
 
 ```
 https://librarycarpentry.org/lc-open-refine/
 ```
-
-In diesem Blogbeitrag behandle ich die beiden äusserst hilfreichen Funktionen "Template-Export" und "Reconciliation".
 
 ### Template-Export
 
@@ -28,7 +26,7 @@ forNonBlank\(<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="a">' + v.escape('xml') + '\</subfield\><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="2">doi\</subfield><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</datafield\>',<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'&nbsp;'<br>
 )<br>
 \}\}
 
