@@ -21,15 +21,15 @@ Die Funktion "escape('xml')" ersetzt die in XML nicht erlaubten Zeichen durch di
 Wenn es in einer Spalte leere Zeilen hat, man aber die Werte von OpenRefine in ein MARCXML umwandeln will, braucht man die Funktion "forNonBlank()":
 
 \{\{
-forNonBlank\(
-    cells\['DOI'\].value,<br>
-    v,<br>
-    '\<datafield tag="024" ind1="7" ind2=" "\><br>
-        <subfield code="a">' + v.escape('xml') + '</subfield>
-        <subfield code="2">doi</subfield>
-    </datafield>',
-    ''
-)
+forNonBlank\(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cells\['DOI'\].value,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;v,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'\<datafield tag="024" ind1="7" ind2=" "\><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="a">' + v.escape('xml') + '\<\/subfield\><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="2">doi\<\/subfield><br>
+&nbsp;&nbsp;&nbsp;&nbsp;\<\/datafield\>',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;''<br>
+)<br>
 \}\}
 
 Hier wird bei nicht-leeren Zellen die Variable unter "v" abgespeichert. Anschliessend werden die definierten datafields und subfields ausgegeben. Subfield "a" enthält auch die Variable "v". Falls die Zelle leer ist, wird ein leerer String ausgegeben.
