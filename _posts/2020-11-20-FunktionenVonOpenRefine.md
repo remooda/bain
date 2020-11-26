@@ -22,9 +22,9 @@ Wenn es in einer Spalte leere Zeilen hat, man aber die Werte von OpenRefine in e
 
 \{\{
 forNonBlank\(
-    cells\['DOI'\].value,
-    v,
-    '<datafield tag="024" ind1="7" ind2=" ">
+    cells\['DOI'\].value,<br>
+    v,<br>
+    '\<datafield tag="024" ind1="7" ind2=" "\><br>
         <subfield code="a">' + v.escape('xml') + '</subfield>
         <subfield code="2">doi</subfield>
     </datafield>',
