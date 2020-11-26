@@ -22,13 +22,13 @@ Wenn es in einer Spalte leere Zeilen hat, man aber die Werte von OpenRefine in e
 
 \{\{
 forNonBlank\(<br>
-&nbsp;&nbsp;&nbsp;&nbsp;cells\['DOI'\].value,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;v,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;'\<datafield tag="024" ind1="7" ind2=" "\><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="a">' + v.escape('xml') + '\<\/subfield\><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="2">doi\<\/subfield><br>
-&nbsp;&nbsp;&nbsp;&nbsp;\<\/datafield\>',<br>
-&nbsp;&nbsp;&nbsp;&nbsp;''<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cells\['DOI'\].value,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'\<datafield tag="024" ind1="7" ind2=" "\><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="a">' + v.escape('xml') + '\</subfield\><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<subfield code="2">doi\</subfield><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</datafield\>',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''<br>
 )<br>
 \}\}
 
