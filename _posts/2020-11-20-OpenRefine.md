@@ -20,7 +20,7 @@ Die Funktion "escape('xml')" ersetzt die in XML nicht erlaubten Zeichen durch di
 
 Wenn es in einer Spalte leere Zeilen hat, man aber die Werte von OpenRefine in ein MARCXML umwandeln will, braucht man die Funktion "forNonBlank()":
 
-\{\{
+\{\{<br>
 forNonBlank\(<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cells\['DOI'\].value,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v,<br>
