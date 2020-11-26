@@ -2,9 +2,9 @@
 
 Auf die Basisfunktionen von OpenRefine gehe ich hier nicht ein. Im folgenden Tutorial von der LibraryCarpentery werden diese alle erläutert:
 
-````
+```
 https://librarycarpentry.org/lc-open-refine/
-````
+```
 
 In diesem Blogbeitrag behandle ich die beiden äusserst hilfreichen Funktionen "Template-Export" und "Reconciliation".
 
@@ -12,7 +12,7 @@ In diesem Blogbeitrag behandle ich die beiden äusserst hilfreichen Funktionen "
 
 Dies ist eine sehr hilfreiche Funktion von OpenRefine – der Export der Daten zu einem MARCXML-File. Die Datenstruktur kann hier selber festgelegt werden.
 
-Über "Export" --> "Templating..." wird das Fenster aufgerufen. Nun kann das Prefix und das Suffix sowie der Separator (meist eine Pipe "|") festgelegt werden. Ausserdem gibt es ein Feld "Row Template" wo die Struktur der jeweiligen Datensätze festgelegt werden kann. Variablen werden in geschweiften Klammern geschrieben  und anschliessend werden die entsprechenden Werte aus den Tabellen abgerufen. Gleich im Templating-Fenster auf der Rechten Seite wird eine Vorschau angezeigt, damit man immer gleich die gemachten Änderungen sehen kann.
+Über "Export" --> "Templating..." wird das Fenster aufgerufen. Nun kann das Prefix und das Suffix sowie der Separator (meist eine Pipe "\|") festgelegt werden. Ausserdem gibt es ein Feld "Row Template" wo die Struktur der jeweiligen Datensätze festgelegt werden kann. Variablen werden in geschweiften Klammern geschrieben  und anschliessend werden die entsprechenden Werte aus den Tabellen abgerufen. Gleich im Templating-Fenster auf der Rechten Seite wird eine Vorschau angezeigt, damit man immer gleich die gemachten Änderungen sehen kann.
 
 #### Good to know
 
@@ -20,8 +20,8 @@ Die Funktion "escape('xml')" ersetzt die in XML nicht erlaubten Zeichen durch di
 
 Wenn es in einer Spalte leere Zeilen hat, man aber die Werte von OpenRefine in ein MARCXML umwandeln will, braucht man die Funktion "forNonBlank()":
 
-````
-{{
+```
+\{\{
 forNonBlank(
     cells['DOI'].value,
     v,
@@ -31,8 +31,8 @@ forNonBlank(
     </datafield>',
     ''
 )
-}}
-````
+\}\}
+```
 
 Hier wird bei nicht-leeren Zellen die Variable unter "v" abgespeichert. Anschliessend werden die definierten datafields und subfields ausgegeben. Subfield "a" enthält auch die Variable "v". Falls die Zelle leer ist, wird ein leerer String ausgegeben.
 
