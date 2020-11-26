@@ -21,17 +21,17 @@ Die Funktion "escape('xml')" ersetzt die in XML nicht erlaubten Zeichen durch di
 Wenn es in einer Spalte leere Zeilen hat, man aber die Werte von OpenRefine in ein MARCXML umwandeln will, braucht man die Funktion "forNonBlank()":
 
 ```
-\{\{
-forNonBlank(
-    cells['DOI'].value,
-    v,
-    '<datafield tag="024" ind1="7" ind2=" ">
-        <subfield code="a">' + v.escape('xml') + '</subfield>
-        <subfield code="2">doi</subfield>        
-    </datafield>',
-    ''
-)
-\}\}
+{{<br>
+forNonBlank(<br>
+    cells['DOI'].value,<br>
+    v,<br>
+    '<datafield tag="024" ind1="7" ind2=" "><br>
+        <subfield code="a">' + v.escape('xml') + '</subfield><br>
+        <subfield code="2">doi</subfield><br>
+    </datafield>',<br>
+    ''<br>
+)<br>
+}}
 ```
 
 Hier wird bei nicht-leeren Zellen die Variable unter "v" abgespeichert. Anschliessend werden die definierten datafields und subfields ausgegeben. Subfield "a" enthält auch die Variable "v". Falls die Zelle leer ist, wird ein leerer String ausgegeben.
@@ -51,3 +51,9 @@ https://lobid.org/gnd/reconcile
 Nun kommt das Fenster zum Anreichern der Spalten. Links kann ausgewählt werden, mit welcher Entität die Spalteninhalte abgeglichen worden sind. Falls dort der gewünschte Eintrag nicht zu finden ist, kann unten auch eine andere Entität ausgewählt werden. Wenn die Ergebnisse noch exakter sein sollen, können auf der Rechten Seite des Fensters noch weitere Spalten abgeglichen werden. Anschliessend wird der Abgleich über "Start Reconciliation" ausgeführt.
 
 Es werden bei jedem Feld Vorschläge gemacht. Die korrekten Vorschläge können nun ausgewählt werden. Unterstützung kann dabei die "Preview" geben, die erscheint, wenn mit dem Cursor über den jeweiligen Vorschlag gefahren wird. Falls kein passender "Match" erscheint, kann in den einzelnen Zellen auch noch spezifisch danach gesucht werden oder der Abgleich zu dieser Person abgebrochen werden. Bei der Übung die wir gemacht haben, gab es sehr wenige automatische Matches. Dies lässt sich wohl darauf zurückführen, dass die Personen von unserer Übungstabelle (noch) nicht sehr bekannt sind und somit nur sehr wenige davon einen eigenen Eintrag in der GND haben. In diesen Fällen habe ich also die jeweilige Anreicherung abbrechen müssen. Bei den meisten Personen, die einen Match haben, wurde dieser automatisch verbunden. Dies, da ich zuvor den entsprechenden Haken im Reconciliation-Fenster gesetzt habe.
+
+Am Ende können aus den vorhin hinzugefügten Werten noch weitere Spalten aus der Reconciliation hinzugefügt werden:
+
+```
+Spalte auswählen --> "Edit column" --> "Add columns from reconciled values..."
+```
