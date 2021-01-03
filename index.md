@@ -28,3 +28,4 @@ title: Lerntagebuch BAIN
 <p>11. Dezember 2020</p>
 <a href="https://remooda.github.io/bain/2020/12/18/tag10.html">Tag 10</a>
 <p>18. Dezember 2020</p>
+<a href="https://remooda.github.io/bain/2020/12/19/abschluss.html">Abschlussartikel</a>
