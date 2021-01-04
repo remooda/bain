@@ -8,7 +8,7 @@ https://librarycarpentry.org/lc-open-refine/
 
 ### Template-Export
 
-Dies ist eine sehr hilfreiche Funktion von OpenRefine – der Export der Daten zu einem MARCXML-File. Die Datenstruktur kann hier selber festgelegt werden.
+Diese Funktion ermöglicht den Export der Daten zu einem MARCXML-File. Die Datenstruktur kann hier selber festgelegt werden.
 
 Über "Export" --> "Templating..." wird das Fenster aufgerufen. Nun kann das Prefix und das Suffix sowie der Separator (meist eine Pipe "\|") festgelegt werden. Ausserdem gibt es ein Feld "Row Template" wo die Struktur der jeweiligen Datensätze festgelegt werden kann. Variablen werden in geschweiften Klammern geschrieben  und anschliessend werden die entsprechenden Werte aus den Tabellen abgerufen. Gleich im Templating-Fenster auf der Rechten Seite wird eine Vorschau angezeigt, damit man immer gleich die gemachten Änderungen sehen kann.
 
