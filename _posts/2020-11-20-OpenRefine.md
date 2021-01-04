@@ -1,6 +1,6 @@
 # Funktionen von OpenRefine
 
-In diesem Blogbeitrag behandle ich die beiden äusserst hilfreichen Funktionen "Template-Export" und "Reconciliation". Auf die Basisfunktionen von OpenRefine gehe ich hier nicht ein. Im folgenden Tutorial von der LibraryCarpentery werden diese alle erläutert:
+In diesem Blogbeitrag behandle ich die beiden äusserst hilfreichen Funktionen "Template-Export" und "Reconciliation". Auf die Basisfunktionen von OpenRefine gehe ich hier nicht ein. Wer sich in OpenRefine nicht auskennt, kann im Tutorial von der LibraryCarpentery die Basisfunktionen kennenlernen:
 
 ```
 https://librarycarpentry.org/lc-open-refine/
