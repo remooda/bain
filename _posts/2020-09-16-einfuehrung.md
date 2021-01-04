@@ -11,9 +11,9 @@ Ein weiteres Lernziel dieses Kurses ist, die richtige Software für eine spezifi
 
 Auch die Konfiguration von Suchmaschinen werden wir in diesem Kurs lernen, ein weiterer Spannender Punkt, den ich mir aber nur schwer verstellen kann – wieder starte ich ohne Vorkenntnisse, kann aber dabei umso mehr lernen. Bisher kenne ich weder Solr noch VuFind.
 
-Desweiteren werden wir Metadaten modellieren und diese mit entsprechenden Protokollen und Anwendungen übertragen. Metadaten haben wir bereits im Modul GSET modelliert, und zwar mit RDF, was mir sehr entsprochen hat.
+Desweiteren werden wir bibliothekarische und archivarische Metadaten modellieren und diese mit entsprechenden Protokollen und Anwendungen übertragen. Metadaten haben wir bereits im Modul GSET modelliert, und zwar mit RDF, was mir sehr entsprochen hat.
 
-Zum Schluss lernen wir das Programmieren mit unterschiedlichen Metadatenformaten. Auch hier habe ich keine Erfahrung, bin jedoch sehr interessiert am Programmieren und denke, dass ich schnell Fortschritte machen werde.
+Zum Schluss sollten wir noch lernen, zwischen den unterschiedlichen Metadatenformaten zu programmieren. Das Umwandeln von einem Format in ein wird "Crosswalk" genannt. Ich denke, dass ich auch diesen Txeil des Moduls interessant finden werde.
 
 Als Fazit kann ich sagen, dass ich bei allen Lernzielen dieses Kurses Neuland betreten werde und auch die meisten Begriffe nicht (mehr) kenne. Aus diesem Grund habe ich hier ein Glossar erstellt, welches mir bei der Orientierung helfen wird. Was mir auffällt ist, dass alle Programme Open Source sind. Das gefällt mir sehr und ich gehe davon aus, dass das äusserst wichtig ist, um einen idealen Austausch zwischen den Programmen zu gewährleisten. Mit proprietären Systemen könnte es schneller zu Problemen kommen.
 
