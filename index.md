@@ -20,8 +20,7 @@ title: Lerntagebuch BAIN
 <p>30. Oktober 2020</p>
 <a href="https://remooda.github.io/bain/2020/11/20/tag7.html">Tag 7</a>
 <p>20. November 2020</p>
-<a href="https://remooda.github.io/bain/2020/11/20/OpenRefine.html">Funktionen von OpenRefine</a>
-<p>Zusatzartikel</p>
+<a href="https://remooda.github.io/bain/2020/11/20/OpenRefine.html">Zusatzartikel – Funktionen von OpenRefine</a>
 <a href="https://remooda.github.io/bain/2020/11/27/tag8.html">Tag 8</a>
 <p>27. November 2020</p>
 <a href="https://remooda.github.io/bain/2020/12/11/tag9.html">Tag 9</a>
